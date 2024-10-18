@@ -1,0 +1,10 @@
+fastapi==0.100.0   # Última versión estable compatible con Python 3.11
+uvicorn==0.22.0    # Última versión de Uvicorn
+motor==3.1.1       # Motor compatible con Python 3.11
+pydantic==1.10.9   # Pydantic compatible con FastAPI y Python 3.11
+pymongo==4.5.0  # Asegúrate de usar la versión 4.x para compatibilidad con Motor 3.x
+transformers
+gTTS
+ollama
+torch
+langchain

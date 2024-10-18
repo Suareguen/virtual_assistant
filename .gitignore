@@ -1,0 +1,45 @@
+# Ignorar entornos virtuales locales
+venv/
+.env/
+*.env
+
+
+myenv
+
+# Ignorar archivos de configuración del entorno de desarrollo
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar logs
+*.log
+logs/
+
+# Ignorar bases de datos locales
+*.db
+*.sqlite3
+
+# Ignorar archivos generados por Python
+build/
+dist/
+*.egg-info/
+
+# Ignorar archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar checkpoints de Jupyter y archivos temporales de Jupyter
+*.ipynb_checkpoints
+*.ipynb
+
+# Ignorar archivos de Uvicorn si hay procesos generados
+*.pid
+
+# Docker (si lo usas)
+docker-compose.override.yml
+.dockerignore
+
+# Ignorar cualquier otro archivo específico del sistema operativo o editor que no sea necesario
